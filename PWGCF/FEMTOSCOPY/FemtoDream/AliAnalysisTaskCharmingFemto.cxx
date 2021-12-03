@@ -698,7 +698,7 @@ void AliAnalysisTaskCharmingFemto::UserExec(Option_t * /*option*/) {
                       V0part.SetMCParticleRePart(mcMother);
                       V0part.SetIDTracks(Pi1ID);
                       V0part.SetIDTracks(Pi2ID);
-                      V0part.SetIDTracks(negKDaughter.GetID());
+                      V0part.SetIDTracks(posKDaughter.GetID());
                       dminus.push_back(V0part);
                     }
                   }
